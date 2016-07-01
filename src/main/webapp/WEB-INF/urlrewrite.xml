@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlrewrite decode-using="null">
+
+    <!-- 微信 -->
+    <rule>
+        <note>wxPay</note>
+        <from>^/third/wx/notify.htm$</from>
+        <to>/third/WxPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>wxWAPPay</note>
+        <from>^/wap/wx/notify.htm$</from>
+        <to>/wap/WxWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>wxB5mAppPay</note>
+        <from>^/wap/wx/appNotify.htm$</from>
+        <to>/wap/WxAppPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>wxHBPAppPay</note>
+        <from>^/wap/wx/newAppNotify.htm$</from>
+        <to>/wap/WxBhpAppPay/notify.htm</to>
+    </rule>
+
+    <!-- 建行 -->
+    <rule>
+        <note>ccbPay</note>
+        <from>^/third/ccb/notify.htm$</from>
+        <to>/third/CCBPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>ccbPay</note>
+        <from>^/third/ccb/return.htm$</from>
+        <to>/third/CCBPay/return.htm</to>
+    </rule>
+
+    <!-- 交行 -->
+    <rule>
+        <note>BocomPay</note>
+        <from>^/third/bocm/notify.htm$</from>
+        <to>/third/BocomPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>BocomPay</note>
+        <from>^/third/bocm/return.htm$</from>
+        <to>/third/BocomPay/return.htm</to>
+    </rule>
+
+    <!-- 招行 -->
+    <rule>
+        <note>CMBPay</note>
+        <from>^/third/cmb/notify.htm$</from>
+        <to>/third/CMBPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>CMBPay</note>
+        <from>^/third/cmb/return.htm$</from>
+        <to>/third/CMBPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>CMBWapPay</note>
+        <from>^/wap/cmb/notify.htm$</from>
+        <to>/wap/CMBWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>CMBWapPay</note>
+        <from>^/wap/cmb/return.htm$</from>
+        <to>/wap/CMBWapPay/return.htm</to>
+    </rule>
+
+    <!-- 工行 -->
+    <rule>
+        <note>ICBCPay</note>
+        <from>^/third/icbc/notify.htm$</from>
+        <to>/third/ICBCPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>ICBCPay</note>
+        <from>^/third/icbc/return.htm$</from>
+        <to>/third/ICBCPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>ICBCWapPay</note>
+        <from>^/wap/icbc/notify.htm$</from>
+        <to>/wap/ICBCWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>ICBCWapPay</note>
+        <from>^/wap/icbc/return.htm$</from>
+        <to>/wap/ICBCWapPay/return.htm</to>
+    </rule>
+
+    <!-- 首信 -->
+    <rule>
+        <note>ShouXinWapPay</note>
+        <from>^/wap/shouXinPay/notify.htm$</from>
+        <to>/wap/ShouXinWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>ShouXinWapPay</note>
+        <from>^/wap/shouXinPay/return.htm$</from>
+        <to>/wap/ShouXinWapPay/return.htm</to>
+    </rule>
+
+    <!-- 支付宝 -->
+    <rule>
+        <note>AliHKWapPay</note>
+        <from>^/wap/aliCrossPay/notify.htm$</from>
+        <to>/wap/AliHKWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliHKWapPay</note>
+        <from>^/wap/aliCrossPay/return.htm$</from>
+        <to>/wap/AliHKWapPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliKoreaWapPay</note>
+        <from>^/wap/aliKoreaCrossPay/notify.htm$</from>
+        <to>/wap/AliKoreaWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliKoreaWapPay</note>
+        <from>^/wap/aliKoreaCrossPay/return.htm$</from>
+        <to>/wap/AliKoreaWapPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliBhp2AppPay</note>
+        <from>^/wap/aliWapKoreaApp/notify.htm$</from>
+        <to>/wap/AliBhp2AppPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliBhp2AppPay</note>
+        <from>^/wap/aliWapKoreaApp/return.htm$</from>
+        <to>/wap/AliBhp2AppPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliKorea2WapPay</note>
+        <from>^/wap/aliWapKoreaCrossPay/notify.htm$</from>
+        <to>/wap/AliKorea2WapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliKorea2WapPay</note>
+        <from>^/wap/aliWapKoreaCrossPay/return.htm$</from>
+        <to>/wap/AliKorea2WapPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliBhpAppPay</note>
+        <from>^/wap/alipay/wallet/notify.htm$</from>
+        <to>/wap/AliBhpAppPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliWapPay</note>
+        <from>^/wap/alipay/app/notify.htm$</from>
+        <to>/wap/AliWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliWapPay</note>
+        <from>^/wap/alipay/notify.htm$</from>
+        <to>/wap/AliWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>AliWapPay</note>
+        <from>^/wap/alipay/return.htm$</from>
+        <to>/wap/AliWapPay/return.htm</to>
+    </rule>
+
+    <!-- 银联 -->
+    <rule>
+        <note>UnionPay</note>
+        <from>^/third/union/notify.htm$</from>
+        <to>/third/UnionPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>UnionPay</note>
+        <from>^/third/union/return$</from>
+        <to>/third/UnionPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>UnionWapPay</note>
+        <from>^/wap/union/notify.htm$</from>
+        <to>/wap/UnionWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>UnionWapPay</note>
+        <from>^/wap/union/return$</from>
+        <to>/wap/UnionWapPay/return.htm</to>
+    </rule>
+
+    <!-- 百度钱包 -->
+    <rule>
+        <note>BaiDuWalletPay</note>
+        <from>^/third/baiDuWallet/notify.htm$</from>
+        <to>/third/BaiDuWalletPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>BaiDuWalletPay</note>
+        <from>^/third/baiDuWallet/return$</from>
+        <to>/third/BaiDuWalletPay/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>BaiDuWalletWapPay</note>
+        <from>^/wap/baiDuWalletWap/notify.htm$</from>
+        <to>/wap/BaiDuWalletPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>BaiDuWalletWapPay</note>
+        <from>^/wap/baiDuWalletWap/return$</from>
+        <to>/wap/baiDuWalletWap/return.htm</to>
+    </rule>
+
+    <rule>
+        <note>BaiDuWalletB5mAppPay</note>
+        <from>^/wap/baiDuWalletApp/notify.htm$</from>
+        <to>/wap/BaiDuWalletB5mAppPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>BaiDuWalletB5mAppPay</note>
+        <from>^/wap/baiDuWalletApp/return$</from>
+        <to>/wap/BaiDuWalletB5mAppPay/return.htm</to>
+    </rule>
+
+    <!-- 快钱 -->
+    <!--自测后不开放-->
+    <!--
+    <rule>
+        <note>KuanqianPay</note>
+        <from>^/third/kq/return$</from>
+        <to>/third/KuanqianPay/return.htm</to>
+    </rule>
+    -->
+
+    <!-- 财付通 -->
+    <!--自测后不开放-->
+    <!--
+    <rule>
+        <note>TencentPay</note>
+        <from>^/third/tp/notify$</from>
+        <to>/third/TencentPay/return.htm</to>
+    </rule>
+    -->
+
+    <!-- U联 -->
+    <rule>
+        <note>UmpWapPay</note>
+        <from>^/wap/umpPay/notify.htm$</from>
+        <to>/wap/UmpWapPay/notify.htm</to>
+    </rule>
+
+    <rule>
+        <note>UmpWapPay</note>
+        <from>^/wap/umpPay/return$</from>
+        <to>/wap/UmpWapPay/return.htm</to>
+    </rule>
+
+</urlrewrite>

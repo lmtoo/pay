@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+	<excludes>
+		<pattern>/console/terrorists.htm</pattern>
+		<pattern>/resources/*</pattern>
+		<pattern>/api/*</pattern>
+		<pattern>/javasimon/*</pattern>
+	</excludes>
+	
+	<decorator name="default" page="default.jsp">
+		<pattern>/console/*</pattern>
+		<pattern>/server/managePage.htm</pattern>
+		<pattern>/server/versionPage.htm</pattern>
+	</decorator>
+</decorators>

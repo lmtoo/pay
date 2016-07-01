@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/mvc     
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/cache 
+        http://www.springframework.org/schema/cache/spring-cache.xsd"
+	default-autowire="byName" default-lazy-init="false">
+	<context:component-scan base-package="com.b5m.payment.web.controller" />
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+	<!-- 中文乱码 -->
+	<bean id="stringHttpMessageConverter" class="org.springframework.http.converter.StringHttpMessageConverter">
+		<!-- 将StringHttpMessageConverter的默认编码设为UTF-8 -->
+		<constructor-arg value="UTF-8" />
+		<property name="writeAcceptCharset" value="false" />
+	</bean>
+	<bean id="jsonResultHandler" class="com.b5m.mvc.support.JsonResultHandler">
+		<property name="stringHttpMessageConverter" ref="stringHttpMessageConverter"/>
+	</bean>
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<!-- 将StringHttpMessageConverter的默认编码设为UTF-8 -->
+				<ref bean="stringHttpMessageConverter" />
+			</list>
+		</property>
+		<property name="customReturnValueHandlers">
+			<list>
+				<ref bean="jsonResultHandler" />
+			</list>
+		</property>
+	</bean>
+	<!-- 异常处理,非必须,可以去掉 -->
+    <bean class="com.b5m.payment.web.core.PayActionExceptionResolver">
+        <property name="defaultErrorView" value="redirect:http://www.b5m.com/500.html"/>
+        <property name="defaultStatusCode" value="500"/>
+    </bean>
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/page/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<!-- message source 配置 -->
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找 -->
+				<value>classpath:config/validmessages</value>
+			</list>
+		</property>
+		<property name="fileEncodings" value="utf-8" />
+		<property name="cacheSeconds" value="86400" />
+	</bean>
+	<!-- 以下 validator -->
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+		<!-- 如果不加默认到 使用classpath下的 ValidationMessages.properties -->
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+	<mvc:annotation-driven validator="validator"></mvc:annotation-driven>
+	<!-- 拦截器配置 -->
+	<mvc:interceptors>
+		<bean id="requestLoggerInterceptor" class="com.b5m.payment.web.core.RequestLoggerInterceptor" />
+		<bean id="adminSecurityInterceptor" class="com.b5m.payment.web.core.AdminSecurityInterceptor" />
+	</mvc:interceptors>
+
+	<!-- 注解缓存配置 -->
+	<cache:annotation-driven />
+	<bean id="cacheManager" class="org.springframework.cache.support.SimpleCacheManager">
+		<property name="caches">
+			<set>
+				<bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean" p:name="default" />
+				<bean class="org.springframework.cache.concurrent.ConcurrentMapCacheFactoryBean" p:name="userCache" />
+			</set>
+		</property>
+	</bean>
+</beans>
