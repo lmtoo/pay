@@ -10,7 +10,6 @@ import com.somnus.pay.payment.util.WebUtil;
 
 /**
  * @description: 农行支付PC渠道接口接入
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: qingshu
  * @version: 1.0
  * @createdate: 2016/2/24

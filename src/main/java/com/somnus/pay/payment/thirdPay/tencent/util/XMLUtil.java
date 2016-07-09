@@ -9,7 +9,6 @@ package com.somnus.pay.payment.thirdPay.tencent.util;
  * 
  * Company: IZENE Software(Shanghai) Co., Ltd.
  * 
- * @author duanyu@b5m.com
  * 
  * @version 1.0
  */

@@ -4,7 +4,6 @@ import com.somnus.pay.exception.B5mException;
 
 /**
  * @description: 不支持的支付回调请求类型
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-9

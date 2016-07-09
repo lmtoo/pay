@@ -4,7 +4,6 @@ import com.somnus.pay.payment.pojo.PaymentConfig;
 
 /**
  * @description: 初始化支付渠道（平台）接口
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 方东白
  * @version: 1.0
  * @createdate: 2015/11/26

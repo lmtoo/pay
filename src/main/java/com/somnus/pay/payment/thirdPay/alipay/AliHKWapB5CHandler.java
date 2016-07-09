@@ -13,7 +13,6 @@ import java.util.TreeMap;
 
 /**
   * @description: 配合帮我采使用支付宝支付渠道回调处理器
-  * Copyright 2011-2016 B5M.COM. All rights reserved
   * @author: qingshu
   * @version: 1.0
   * @createdate: 2016-05-09

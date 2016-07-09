@@ -6,10 +6,8 @@ import com.somnus.pay.payment.thirdPay.shouxin.config.ShouXinConfig;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * @description: 支付渠道枚举
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-11

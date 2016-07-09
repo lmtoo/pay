@@ -36,7 +36,6 @@ import com.somnus.pay.utils.RequestUtils;
 
 /**
  * @description: 支付流程抽象基类,为所有渠道提供统一的支付流程模板
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-11-27

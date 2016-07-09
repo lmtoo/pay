@@ -3,7 +3,6 @@ package com.somnus.pay.payment.thirdPay;
 /**
  * 
  * @description: 第三方支付渠道操作请求类型
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-9

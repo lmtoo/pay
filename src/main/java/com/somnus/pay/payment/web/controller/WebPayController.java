@@ -22,7 +22,6 @@ import com.somnus.pay.payment.util.Constants;
 
 /**
  * @description: WEB渠道支付流程控制器
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-11-27

@@ -31,7 +31,6 @@ import com.bocom.netpay.b2cAPI.BOCOMSetting;
 
 /**
  * @description: 交行支付渠道回调处理器
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: qingshu
  * @version: 1.0
  * @createdate: 2015-12-15

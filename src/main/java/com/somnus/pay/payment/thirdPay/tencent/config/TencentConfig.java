@@ -3,7 +3,6 @@ package com.somnus.pay.payment.thirdPay.tencent.config;
 
 /**
   * @description: 基础配置类
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: masanbao
   * @version: 1.0
   * @createdate: 2015-08-10
@@ -33,7 +32,6 @@ package com.somnus.pay.payment.thirdPay.tencent.config;
  *2、更换浏览器或电脑，重新登录查询。
  *
  *用户帐号：
- *email:liubang@b5m.com
  *Pid:2088011820675002
  *Key:ikezlvaqhnxahet09u8lgwuu1vs87dwm
  */

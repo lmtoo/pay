@@ -4,7 +4,6 @@ import com.somnus.pay.payment.util.ConfigUtil;
 
 /**
  * @description:  农行配置信息
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: qingshu
  * @version: 1.0
  * @createdate: 2016/2/24

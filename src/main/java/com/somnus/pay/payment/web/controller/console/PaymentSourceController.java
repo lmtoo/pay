@@ -24,7 +24,6 @@ import com.somnus.pay.payment.pojo.QueryResult;
 
 /**
   * @description: 支付来源管理
-  * Copyright 2011-2016 B5M.COM. All rights reserved
   * @author: 允礼
   * @version: 1.0
   * @createdate: 2015-12-9

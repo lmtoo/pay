@@ -5,7 +5,6 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * UA枚举 请求终端
  * @description: 
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-11

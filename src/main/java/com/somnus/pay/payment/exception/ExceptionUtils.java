@@ -4,7 +4,6 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * @description: 获取核心异常信息描述
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: qingshu
  * @version: 1.0
  * @createdate: 2016/1/27

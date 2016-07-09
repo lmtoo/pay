@@ -4,7 +4,6 @@ import com.somnus.pay.payment.util.ConfigUtil;
 
 /**
   * @description: BOCOMB2C常量配置
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: masanbao
   * @version: 1.0
   * @createdate: 2015-01-28

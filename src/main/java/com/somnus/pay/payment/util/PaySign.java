@@ -16,7 +16,6 @@ import com.somnus.pay.utils.Assert;
 
 /**
   * @description: 支付校验签名
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: mike
   * @version: 1.0
   * @createdate: 2015-3-20

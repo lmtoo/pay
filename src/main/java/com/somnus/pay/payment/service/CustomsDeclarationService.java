@@ -9,7 +9,6 @@ import java.util.Map;
 
 /**
  * @description: ${TODO}
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 方东白
  * @version: 1.0
  * @createdate: 2015/12/25

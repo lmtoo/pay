@@ -6,7 +6,6 @@ import netpay.merchant.crypto.*;
 
 /**
   * @description: 建行直连相关签名工具类（待提取为公共工具类中）
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: qingshu
   * @version: 1.0
   * @createdate: 2015-08-20

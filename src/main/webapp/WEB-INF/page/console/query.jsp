@@ -2,7 +2,7 @@
 	session="false"%>
 <%@page import="java.sql.*"%>
 <%@page import="java.util.ResourceBundle"%>
-<%@ page import="com.b5m.payment.util.Constants" %>
+<%@ page import="com.somnus.pay.payment.util.Constants" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

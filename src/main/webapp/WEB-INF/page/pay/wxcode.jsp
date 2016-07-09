@@ -1,6 +1,6 @@
-<%@page import="com.b5m.payment.web.controller.PayController"%>
+<%@page import="com.somnus.pay.payment.web.controller.PayController"%>
 <%@ page trimDirectiveWhitespaces="true" %>
-<%@ page import="com.alibaba.fastjson.JSONObject"%>
+<%-- <%@ page import="com.alibaba.fastjson.JSONObject"%> --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.ResourceBundle"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
@@ -30,7 +30,7 @@
 <div id="page">
 <div class="tpbar"></div>
 <%-- 头部 Start --%>
-<% request.setAttribute("headModel", PayController.getPageModuledule()); %>
+<%-- <% request.setAttribute("headModel", PayController.getPageModuledule()); %> --%>
 ${headModel.top_bar }
 <%-- 头部 End --%>
 	<div id="main">		

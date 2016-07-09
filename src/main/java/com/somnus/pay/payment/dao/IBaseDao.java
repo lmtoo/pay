@@ -11,7 +11,6 @@ import com.somnus.pay.payment.pojo.QueryResult;
 
 /**
  * @Author 尹正飞
- * @Email zhengfei.yin@b5m.com
  * @Version 2013-4-25 上午11:02:57
  **/
 

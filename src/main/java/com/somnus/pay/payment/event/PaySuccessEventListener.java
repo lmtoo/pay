@@ -18,7 +18,6 @@ import com.somnus.pay.payment.util.SpringContextUtil;
 
 /**
  *  @description: 支付成功事件监听器<br/>
- *  Copyright 2011-2015 B5M.COM. All rights reserved<br/>
  *  @author: 丹青生<br/>
  *  @version: 1.0<br/>
  *  @createdate: 2015-12-23<br/>

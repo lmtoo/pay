@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  *  @description: 第三方支付渠道回调处理状态 <br/>
- *  Copyright 2011-2015 B5M.COM. All rights reserved<br/>
  *  @author: 丹青生<br/>
  *  @version: 1.0<br/>
  *  @createdate: 2015-12-25<br/>

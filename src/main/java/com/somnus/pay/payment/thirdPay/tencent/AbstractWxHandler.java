@@ -37,7 +37,6 @@ import com.somnus.pay.utils.MoneyUtils;
 
 /**
  * @description: 微信(PC)支付渠道回调抽象处理器
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-9

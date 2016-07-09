@@ -24,7 +24,6 @@ import java.util.Map;
 
 /**
  * @description: 支付宝支付渠道回调处理器
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: qingshu
  * @version: 1.0
  * @createdate: 2016-05-17

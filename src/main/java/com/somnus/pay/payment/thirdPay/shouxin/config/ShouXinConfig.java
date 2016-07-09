@@ -4,7 +4,6 @@ import com.somnus.pay.payment.util.ConfigUtil;
 
 /**
   * @description: 首信支付的相关配置
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: qingshu
   * @version: 1.0
   * @createdate: 2015-08-20

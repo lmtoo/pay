@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 
 /**
   * @description: BOCOMB2C配置初始化
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: masanbao
   * @version: 1.0
   * @createdate: 2015-01-22

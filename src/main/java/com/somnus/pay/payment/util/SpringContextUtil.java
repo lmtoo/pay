@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Author 尹正飞
- * @Email zhengfei.yin@b5m.com
  * @Version 2013年11月21日 上午11:26:53
  **/
 

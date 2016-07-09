@@ -16,7 +16,6 @@ import com.somnus.pay.payment.exception.PayExceptionCode;
 
 /**
  * @description: 支持异步处理的时间监听器
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 丹青生
  * @version: 1.0
  * @createdate: 2015-12-23

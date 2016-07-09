@@ -30,7 +30,6 @@ import com.somnus.pay.payment.util.Constants;
 
 /**
  * @description: 支付渠道数据初始化业务类
- * Copyright 2011-2015 B5M.COM. All rights reserved
  * @author: 方东白
  * @version: 1.0
  * @createdate: 2015/11/26

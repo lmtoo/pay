@@ -5,7 +5,6 @@ import java.io.Serializable;
 /**
  *  分页实体类
  *  @description: <br/>
- *  Copyright 2011-2015 B5M.COM. All rights reserved<br/>
  *  @author: 丹青生<br/>
  *  @version: 1.0<br/>
  *  @createdate: 2015-12-28<br/>

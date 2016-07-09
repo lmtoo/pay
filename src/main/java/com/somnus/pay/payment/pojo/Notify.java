@@ -19,7 +19,6 @@ import com.somnus.pay.utils.Assert;
 
 /**
  *  @description: 通知请求发起方流水记录<br/>
- *  Copyright 2011-2015 B5M.COM. All rights reserved<br/>
  *  @author: 丹青生<br/>
  *  @version: 1.0<br/>
  *  @createdate: 2015-12-25<br/>

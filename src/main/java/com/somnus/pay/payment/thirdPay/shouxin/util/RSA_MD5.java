@@ -14,7 +14,6 @@ import org.bouncycastle.util.encoders.Hex;
 
 /**
   * @description: 首信提供RSAMD5工具类
-  * Copyright 2011-2015 B5M.COM. All rights reserved
   * @author: qingshu
   * @version: 1.0
   * @createdate: 2015-08-20
